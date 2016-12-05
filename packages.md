@@ -5,3 +5,4 @@
 - [Remote-FTP](https://atom.io/packages/Remote-FTP)
 - [git-plus](https://atom.io/packages/git-plus)
 - [docblockr](https://atom.io/packages/docblockr)
+- [highlight-selected](https://atom.io/packages/highlight-selected)
