@@ -20,16 +20,19 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 '.text.html.php':
-	'item array':
+	'its':
 		'prefix': 'its'
 		'body': "'${1:key}' => '${2:value}',$3"
 
-	'item array compact':
+	'itc':
 		'prefix': 'itc'
 		'body': "'$1' => \$$1,$2"
 
+	'thisv':
+		'prefix': 'thisv'
+		'body': "\$this->$1 = \$$1;"
 
-	'is_null':
+	'isn':
 		'prefix': 'isn'
 		'body': 'is_null($1)$2'
 
