@@ -46,12 +46,12 @@
 		"""
 
 	'yii render':
-	  'prefix': 'yiren'
-	  'body': """
-	  return $this->render$1('${2:index}', [
-	  	$3
-	  ]);
-	  """
+		'prefix': 'yiren'
+		'body': """
+		return $this->render$1('${2:index}', [
+			$3
+		]);
+		"""
 
 	'yii behaviors access control':
 		'prefix': 'yibac'
