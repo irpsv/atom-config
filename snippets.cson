@@ -19,7 +19,7 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-'.text.html.php':
+'.php':
 	'its':
 		'prefix': 'its'
 		'body': "'${1:key}' => '${2:value}',$3"
@@ -107,4 +107,12 @@
 		{
 			return \$this->$1$2;
 		}
+		"""
+
+	'log':
+		'prefix': 'log'
+		'body': """
+		echo '<pre>';
+		var_dump($1);
+		echo '</pre>';
 		"""
